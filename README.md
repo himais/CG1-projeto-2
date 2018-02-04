@@ -11,9 +11,9 @@ Para esta questão escreva procedimentos em linguagem C utilizando a biblioteca 
 
 a)Faça um procedimento drawFigure(tNo *iniLista) que recebe como parâmetro o início de uma lista encadeada de pontos que formam um polígono ,armazenada em iniLista do tipo tNo,e desenha este polígono. Para este exercício utilize a primitiva glBegin( GL_LINE_LOOP ) ... glEnd(); A estrutura do tNo é apresentada a seguir:
 
-$$
-typedef struct _tNo{ float x, y; struct _tNo *prox;} tNo;
-$$
+
+> typedef struct _tNo{ float x, y; struct _tNo *prox;} tNo;
+
 
 b)Agora assuma que o procedimento drawFigure (tNo *iniLista) é uma função dada (você não pode modificar o procedimento drawFigure(tNo *iniLista) criado inicialmente. Faça um procedimento RotateFigure(tNo *iniLista, float angle) que recebe como parâmetro o início de uma lista encadeada de pontos que formam um polígono, armazenada em iniLista do tipo tNo, e um parâmetro angle do tipo float que contém um ângulo a ser rodado, e desenha este polígono rotacionado de angle graus.
 
