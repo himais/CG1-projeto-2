@@ -15,7 +15,8 @@ a)Faça um procedimento drawFigure(tNo *iniLista) que recebe como parâmetro o i
 > typedef struct _tNo{ float x, y; struct _tNo *prox;} tNo;
 
 
-b)Agora assuma que o procedimento drawFigure (tNo *iniLista) é uma função dada (você não pode modificar o procedimento drawFigure(tNo *iniLista) criado inicialmente. Faça um procedimento RotateFigure(tNo *iniLista, float angle) que recebe como parâmetro o início de uma lista encadeada de pontos que formam um polígono, armazenada em iniLista do tipo tNo, e um parâmetro angle do tipo float que contém um ângulo a ser rodado, e desenha este polígono rotacionado de angle graus.
+b) Agora assuma que o procedimento drawFigure (tNo *iniLista) é uma função dada (você não pode modificar o procedimento drawFigure(tNo *iniLista) criado inicialmente. 
+Faça um procedimento RotateFigure(tNo *iniLista, float angle) que recebe como parâmetro o início de uma lista encadeada de pontos que formam um polígono, armazenada em iniLista do tipo tNo, e um parâmetro angle do tipo float que contém um ângulo a ser rodado, e desenha este polígono rotacionado de angle graus.
 
 Para rotacionar o objeto você deverá utilizar a tecla ‘A’ rotacionar no sentido horário e a tecla ‘L’ para rotacionar no sentido anti-horário.
 
